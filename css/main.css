@@ -12,7 +12,7 @@ p {
 
 .navbar .nav-link {
   padding-top: 1px;
-  margin: 55px 4px 0px 4px;
+  margin: 20px 4px 0px 4px;
   height: 25px;
   border-right: 1px solid #95afae;
 }
@@ -27,12 +27,20 @@ a:hover {
   background-position: top right;
 }
 
+#landing h1 {
+  margin-bottom: 0px;
+}
+
+#landing p {
+  margin: 30px 0px 40px 0px;
+}
+
 #landing #banner {
   margin-top: 135px;
 }
 
 #landing #hero {
-  margin-top: 135px;
+  margin-top: 50px;
 }
 
 
@@ -135,7 +143,7 @@ a:hover {
 #contact {
   background: #ffe7df;
   margin-top: 60px;
-  padding-top: 40px;
+  padding: 40px 0px;
 }
 
 #contact img {
