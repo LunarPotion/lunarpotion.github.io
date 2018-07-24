@@ -12,9 +12,9 @@
     <!-- Bootstrap core CSS -->
     <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-    <!-- Custom styles for this template -->
     <link href="css/main.css" rel="stylesheet">
-<link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,400,700" rel="stylesheet">
+    <link href="css/typography.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Roboto:300,400,700" rel="stylesheet">
   </head>
 
   <body id="page-top">
@@ -22,21 +22,25 @@
     <!-- Navigation -->
     <nav class="navbar navbar-expand-lg fixed-top" id="mainNav">
       <div class="container">
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger p3" href="#experience">Experience</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger p3" href="#attitude">Attitude</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger p3" href="#personal">Personal</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link js-scroll-trigger p3" href="#contact" style="border:  none;">Contact</a>
-            </li>
-          </ul>
+        <div class="row">
+          <div class="col-lg-10 mx-auto">
+            <div class="collapse navbar-collapse" id="navbarResponsive">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger grey-text" href="#experience">Experience</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger grey-text" href="#attitude">Attitude</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger grey-text" href="#personal">Personal</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link js-scroll-trigger grey-text" href="#contact" style="border:  none;">Contact</a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </nav>
@@ -44,18 +48,22 @@
     <header id="landing">
       <div class="container">
         <div class="row">
-          <div class="col-md-6 banner">
-            <h1 class="header-1">Hi! I'm Klaudia</h1>
-            <h2 class="header-2">UI DESIGNER AND ILLUSTRATOR</h2>
-            <p class="paragraph-2">
-              I'm a designer with 5 years of experience. My commercial adventure consists on creating graphic user interfaces with elements of UX: designing websites and applications.
-            </p>
+          <div class="col-lg-11 mx-auto">
+            <div class="row">
+              <div id="banner" class="col-md-6">
+                <h1 class="font-size-7 green-text abril-font">Hi! I'm Klaudia</h1>
+                <h2 class="font-size-5 green-text font-weight-light">UI DESIGNER AND ILLUSTRATOR</h2>
+                <p class="font-size-2 font-weight-light grey-text">
+                  I'm a designer with 5 years of experience. My commercial adventure consists on creating graphic user interfaces with elements of UX: designing websites and applications.
+                </p>
 
-            <a href="#" class="lets-meet text-uppercase">Let's meet!</a>
-          </div>
+                <a href="#" class="lets-meet text-uppercase rose-text font-weight-light font-size-6">Let's meet!</a>
+              </div>
 
-          <div class="col-md-6 hero">
-            <img class="img-fluid" src="img/hero-img.png" alt="">
+              <div class="col-md-6">
+                <img id="hero" class="img-fluid hero" src="img/hero-img.png" alt="">
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -64,13 +72,13 @@
     <section id="experience">
       <div class="container">
         <div class="row">
-          <div class="col-lg-11 shadow-md experience-nav">
+          <div class="col-lg-11 mx-auto shadow-md experience-nav">
             <div class="row">
               <div class="nav-item col-lg-3 col-sm-6 text-center">
                 <a href="http://behance.net/klaudia-thedesigner">
                   <figure class="figure text-center">
                     <img src="img/ico_big_beha.svg" class="figure-img img-fluid" alt="behance design url">
-                    <figcaption class="figure-caption header-4">DESIGN</figcaption>
+                    <figcaption class="figure-caption font-size-5 green-text font-weight-light">DESIGN</figcaption>
                   </figure>
                 </a>
               </div>
@@ -79,7 +87,7 @@
                 <a href="http://dribbble.com/hoszi">
                   <figure class="figure text-center">
                     <img src="img/ico_big_drib.svg" class="figure-img img-fluid" alt="dribble design url">
-                    <figcaption class="figure-caption header-4">DESIGN</figcaption>
+                    <figcaption class="figure-caption font-size-5 green-text font-weight-light">DESIGN</figcaption>
                   </figure>
                 </a>
               </div>
@@ -88,7 +96,7 @@
                 <a href="http://behance.net/hoszi">
                   <figure class="figure text-center">
                     <img src="img/ico_big_beha.svg" class="figure-img img-fluid" alt="behance art url">
-                    <figcaption class="figure-caption header-4">ART</figcaption>
+                    <figcaption class="figure-caption font-size-5 green-text font-weight-light">ART</figcaption>
                   </figure>
                 </a>
               </div>
@@ -97,7 +105,7 @@
                 <a href="#">
                   <figure class="figure text-center">
                     <img src="img/ico_big_resume.svg" class="figure-img img-fluid" alt="behance art url">
-                    <figcaption class="figure-caption header-4">RESUME</figcaption>
+                    <figcaption class="figure-caption font-size-5 rose-text font-weight-bold">RESUME</figcaption>
                   </figure>
                 </a>
               </div>
@@ -105,7 +113,7 @@
           </div>
           <div class="col-lg-11 mx-auto shadow-md p-3 mb-5 bg-white skills-and-software">
             <div class="row">
-              <div class="col-lg-12"><h2 class="header-4">SKILLS AND SOFTWARE</h2></div>
+              <div class="col-lg-12"><h2 class="font-size-5 green-text font-weight-light">SKILLS AND SOFTWARE</h2></div>
               <div class="col-lg-6 skills-bars-list">
                 <div class="row skill-item">
                   <div class="col-lg-3">
@@ -167,30 +175,30 @@
                 <div class="row">
                   <div class="col-lg-6">
                     <ul class="skills-list">
-                      <li class="paragraph-2">Web design</li>
-                      <li class="paragraph-2">Application design</li>
-                      <li class="paragraph-2">Typography</li>
-                      <li class="paragraph-2">Illustrations, infographics</li>
-                      <li class="paragraph-2">DTP</li>
-                      <li class="paragraph-2">Branding visual supervision</li>
-                      <li class="paragraph-2">Branding strategy</li>
-                      <li class="paragraph-2">Creating CI</li>
-                      <li class="paragraph-2">Visual marketing</li>
+                      <li class="font-size-2 font-weight-light">Web design</li>
+                      <li class="font-size-2 font-weight-light">Application design</li>
+                      <li class="font-size-2 font-weight-light">Typography</li>
+                      <li class="font-size-2 font-weight-light">Illustrations, infographics</li>
+                      <li class="font-size-2 font-weight-light">DTP</li>
+                      <li class="font-size-2 font-weight-light">Branding visual supervision</li>
+                      <li class="font-size-2 font-weight-light">Branding strategy</li>
+                      <li class="font-size-2 font-weight-light">Creating CI</li>
+                      <li class="font-size-2 font-weight-light">Visual marketing</li>
                     </ul>
                   </div>
 
                   <div class="col-lg-6">
                     <ul class="skills-list">
-                      <li class="paragraph-2">Mockups and wireframes</li>
-                      <li class="paragraph-2">Information architecture</li>
-                      <li class="paragraph-2">Personas and scenarios</li>
-                      <li class="paragraph-2">Design systems</li>
-                      <li class="paragraph-2">Documentation</li>
-                      <li class="paragraph-2">Collecting brief</li>
-                      <li class="paragraph-2">Team leading</li>
-                      <li class="paragraph-2">Time management</li>
-                      <li class="paragraph-2">Scrum</li>
-                      <li class="paragraph-2">Client relations</li>
+                      <li class="font-size-2 font-weight-light">Mockups and wireframes</li>
+                      <li class="font-size-2 font-weight-light">Information architecture</li>
+                      <li class="font-size-2 font-weight-light">Personas and scenarios</li>
+                      <li class="font-size-2 font-weight-light">Design systems</li>
+                      <li class="font-size-2 font-weight-light">Documentation</li>
+                      <li class="font-size-2 font-weight-light">Collecting brief</li>
+                      <li class="font-size-2 font-weight-light">Team leading</li>
+                      <li class="font-size-2 font-weight-light">Time management</li>
+                      <li class="font-size-2 font-weight-light">Scrum</li>
+                      <li class="font-size-2 font-weight-light">Client relations</li>
                     </ul>
                   </div>
                 </div>
@@ -204,14 +212,18 @@
     <section id="attitude">
       <div class="container">
         <div class="row">
-          <div class="col-lg-6 mx-auto">
-            <img class="img-fluid" src="img/about-img.png" alt="">
-          </div>
-          <div class="col-lg-6 mx-auto how-do-i-work">
-            <h2 class="header-3">How do I work?</h2>
-            <p class='paragraph-1'>
-              I'm seeking connections and associations instead of divisions. As an artist and a designer I find art in technical activity and logic in fine arts, that is the thing that makes me passionate about what I do.
-            </p>
+          <div class="col-lg-11 mx-auto">
+            <div class="row">
+              <div class="col-lg-6">
+                <img class="img-fluid" src="img/about-img.png" alt="">
+              </div>
+              <div class="col-lg-6 how-do-i-work">
+                <h2 class="font-size-6 grey-text abril-font font-weight-bold">How do I work?</h2>
+                <p class='font-size-4 grey-text font-weight-light align-middle'>
+                  I'm seeking connections and associations instead of divisions. As an artist and a designer I find art in technical activity and logic in fine arts, that is the thing that makes me passionate about what I do.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -222,72 +234,72 @@
         <div class="row">
           <div class="col-lg-11 mx-auto shadow-md p-3 mb-5 bg-white">
             <div class="title text-center">
-              <h2 class="header-3">Who am I personally?</h2>
-              <h3 class="header-5">MY HOBBIES SPEAK ABOUT ME A LOT!</p>
+              <h2 class="font-size-6 grey-text abril-font font-weight-bold">Who am I personally?</h2>
+              <h3 class="font-size-3 grey-text font-weight-light">MY HOBBIES SPEAK ABOUT ME A LOT!</h3>
             </div>
 
             <div class="row">
               <div class="col-lg-3 col-md-6 text-center">
                 <figure class="figure text-center">
                   <img src="img/ico_01.svg" class="figure-img img-fluid" alt="art icon">
-                  <figcaption class="figure-caption header-5">ART & FOLKLORE</figcaption>
-                  <p class="paragraph-3">Deep care about cultural aspects of design. I love all the tribe stories and museums to widen my perspective and understand creation better.</p>
+                  <figcaption class="figure-caption font-size-3 green-text font-weight-light">ART & FOLKLORE</figcaption>
+                  <p class="font-size-1 grey-text font-weight-light">Deep care about cultural aspects of design. I love all the tribe stories and museums to widen my perspective and understand creation better.</p>
                 </figure>
               </div>
 
               <div class="col-lg-3 col-md-6 text-center">
                 <figure class="figure text-center">
                   <img src="img/ico_02.svg" class="figure-img img-fluid" alt="psychology icon">
-                  <figcaption class="figure-caption header-5-alt">PSYCHOLOGY</figcaption>
-                  <p class="paragraph-3">My favourite is cognitive psychology to catch all the fun biases of the brain and use them in the marketing aspect of my projects. Yeah, I know nobody reads icon descriptions</p>
+                  <figcaption class="figure-caption font-size-3 rose-text font-weight-light">PSYCHOLOGY</figcaption>
+                  <p class="font-size-1 grey-text font-weight-light">My favourite is cognitive psychology to catch all the fun biases of the brain and use them in the marketing aspect of my projects. Yeah, I know nobody reads icon descriptions</p>
                 </figure>
               </div>
 
               <div class="col-lg-3 col-md-6 text-center">
                 <figure class="figure text-center">
                   <img src="img/ico_03.svg" class="figure-img img-fluid" alt="photography icon">
-                  <figcaption class="figure-caption header-5">PHOTOGRAPHY</figcaption>
-                  <p class="paragraph-3">I used to be a part-time photographer for occasions and also created artistic photography. This taught me a lot about the pictures</p>
+                  <figcaption class="figure-caption font-size-3 green-text font-weight-light">PHOTOGRAPHY</figcaption>
+                  <p class="font-size-1 grey-text font-weight-light">I used to be a part-time photographer for occasions and also created artistic photography. This taught me a lot about the pictures</p>
                 </figure>
               </div>
 
               <div class="col-lg-3 col-md-6 text-center">
                 <figure class="figure text-center">
                   <img src="img/ico_04.svg" class="figure-img img-fluid" alt="drawing icon">
-                  <figcaption class="figure-caption header-5-alt">DRAWING</figcaption>
-                  <p class="paragraph-3">In my free time I create fine art, illustrations and paintings. It balances my needs for expressions and helps me in making unique designs</p>
+                  <figcaption class="figure-caption font-size-3 rose-text font-weight-light">DRAWING</figcaption>
+                  <p class="font-size-1 grey-text font-weight-light">In my free time I create fine art, illustrations and paintings. It balances my needs for expressions and helps me in making unique designs</p>
                 </figure>
               </div>
 
               <div class="col-lg-3 col-md-6 text-center">
                 <figure class="figure text-center">
                   <img src="img/ico_05.svg" class="figure-img img-fluid" alt="drama movies icon">
-                  <figcaption class="figure-caption header-5-alt">DRAMA MOVIES</figcaption>
-                  <p class="paragraph-3">Related to psychology! I love the style like Charlie Kaufman’s - the master of immersion, deep understanding and very unique sense of humour</p>
+                  <figcaption class="figure-caption font-size-3 rose-text font-weight-light">DRAMA MOVIES</figcaption>
+                  <p class="font-size-1 grey-text font-weight-light">Related to psychology! I love the style like Charlie Kaufman’s - the master of immersion, deep understanding and very unique sense of humour</p>
                 </figure>
               </div>
 
               <div class="col-lg-3 col-md-6 text-center">
                 <figure class="figure text-center">
                   <img src="img/ico_06.svg" class="figure-img img-fluid" alt="darki music icon">
-                  <figcaption class="figure-caption header-5">DARK MUSIC</figcaption>
-                  <p class="paragraph-3">I think music reflects our nature. I love atmospheric and natural music within genres like folk, progressive / death / black metal, but also fun like 70’s rock. Want to go with me to a gig</p>
+                  <figcaption class="figure-caption font-size-3 green-text font-weight-light">DARK MUSIC</figcaption>
+                  <p class="font-size-1 grey-text font-weight-light">I think music reflects our nature. I love atmospheric and natural music within genres like folk, progressive / death / black metal, but also fun like 70’s rock. Want to go with me to a gig</p>
                 </figure>
               </div>
 
               <div class="col-lg-3 col-md-6 text-center">
                 <figure class="figure text-center">
                   <img src="img/ico_07.svg" class="figure-img img-fluid" alt="tea icon">
-                  <figcaption class="figure-caption header-5-alt">TEA</figcaption>
-                  <p class="paragraph-3">Tea has charms to soothe the savage breast! There is no good day without a tasty cup of tea with a buddy</p>
+                  <figcaption class="figure-caption font-size-3 rose-text font-weight-light">TEA</figcaption>
+                  <p class="font-size-1 grey-text font-weight-light">Tea has charms to soothe the savage breast! There is no good day without a tasty cup of tea with a buddy</p>
                 </figure>
               </div>
 
               <div class="col-lg-3 col-md-6 text-center">
                 <figure class="figure text-center">
                   <img src="img/ico_08.svg" class="figure-img img-fluid" alt="food icon">
-                  <figcaption class="figure-caption header-5">FOOD</figcaption>
-                  <p class="paragraph-3">Designing food to be nutritious and beautiful - I think the composition of tastes relates to visual impressions</p>
+                  <figcaption class="figure-caption font-size-3 green-text font-weight-light">FOOD</figcaption>
+                  <p class="font-size-1 grey-text font-weight-light">Designing food to be nutritious and beautiful - I think the composition of tastes relates to visual impressions</p>
                 </figure>
               </div>
             </div>
@@ -299,24 +311,28 @@
     <section id="contact">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 text-center"><h3 class=header-3-alt>I hope we can meet!</h3></div>
-          <div class="col-lg-6 col-sm-12 text-center">
-            <a href="mailto:klaudia.migacz@gmail.com">
-              <figure class="figure text-center">
-                <img src="img/ico_big_mail.svg" class="figure-img img-fluid" alt="mail url">
-                <figcaption class="figure-caption"><h3 class="header-3-alt">KLAUDIA.MIGACZ@GMAIL.COM</h3></figcaption>
-                <h4 class="header-5-alt">LETS TALK NOW</h4>
-              </figure>
-            </a>
-          </div>
-          <div class="col-lg-6 col-sm-12 text-center">
-            <a href="#">
-              <figure class="figure text-center">
-                <img src="img/ico_big_resume2.svg" class="figure-img img-fluid" alt="resume url">
-                <figcaption class="figure-caption"><h3 class="header-3-alt">DOWNLOAD RESUME</h3></figcaption>
-                <h4 class="header-5-alt">LETS TALK LATER</h4>
-              </figure>
-            </a>
+          <div class="col-lg-11 mx-auto">
+            <div class="row">
+              <div class="col-lg-12 text-center"><h2 class="font-size-6 rose-text abril-font font-weight-bold">I hope we can meet!</h2></div>
+              <div class="col-lg-6 col-sm-12 text-center">
+                <a href="mailto:klaudia.migacz@gmail.com">
+                  <figure class="figure text-center">
+                    <img src="img/ico_big_mail.svg" class="figure-img img-fluid" alt="mail url">
+                    <figcaption class="figure-caption"><h3 class="font-size-6 rose-text font-weight-bold">KLAUDIA.MIGACZ@GMAIL.COM</h3></figcaption>
+                    <h4 class="font-size-3 rose-text font-weight-light">LETS TALK NOW</h4>
+                  </figure>
+                </a>
+              </div>
+              <div class="col-lg-6 col-sm-12 text-center">
+                <a href="#">
+                  <figure class="figure text-center">
+                    <img src="img/ico_big_resume2.svg" class="figure-img img-fluid" alt="resume url">
+                    <figcaption class="figure-caption"><h3 class="font-size-6 rose-text font-weight-bold">DOWNLOAD RESUME</h3></figcaption>
+                    <h4 class="font-size-3 rose-text font-weight-light">LETS TALK LATER</h4>
+                  </figure>
+                </a>
+              </div>
+            </div>
           </div>
         </div>
       </div>
@@ -326,101 +342,107 @@
     <footer>
       <div class="container">
         <div class="row">
-          <div class="col-lg-3 col-sm-6">
-            <ul class="navbar-nav mr-auto social">
-              <li class="nav-item">
-                <a href="https://www.linkedin.com/in/klaudia-thedesigner" target="_blank">
-                  <img src="img/social_01.svg" class="pull-left">
-                  <span class="pull-right">Linkedin</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://plus.google.com/u/0/+Psyhoszi" target="_blank">
-                  <img src="img/social_02.svg" class="pull-left">
-                  <span class="pull-right">Google+</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://www.facebook.com/Lunar-Potion" target="_blank">
-                  <img src="img/social_03.svg" class="pull-left">
-                  <span class="pull-right">Facebook</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+          <div class="col-lg-11 mx-auto">
+            <div class="row">
+              <div class="col-lg-3 col-sm-6">
+                <ul class="navbar-nav mr-auto social">
+                  <li class="nav-item">
+                    <a href="https://www.linkedin.com/in/klaudia-thedesigner" target="_blank">
+                      <img src="img/social_01.svg" class="pull-left">
+                      <span class="pull-right">Linkedin</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://plus.google.com/u/0/+Psyhoszi" target="_blank">
+                      <img src="img/social_02.svg" class="pull-left">
+                      <span class="pull-right">Google+</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://www.facebook.com/Lunar-Potion" target="_blank">
+                      <img src="img/social_03.svg" class="pull-left">
+                      <span class="pull-right">Facebook</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
 
-          <div class="col-lg-3 col-sm-6">
-            <ul class="navbar-nav mr-auto social">
-              <li class="nav-item">
-                <a href="http://dribbble.com/hoszi" target="_blank">
-                  <img src="img/social_04.svg" class="pull-left">
-                  <span class="pull-right">Dribbble</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="http://behance.net/klaudia-thedesigner" target="_blank">
-                  <img src="img/social_05.svg" class="pull-left">
-                  <span class="pull-right">Behance (Design)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://github.com/hoszka" target="_blank">
-                  <img src="img/social_06.svg" class="pull-left">
-                  <span class="pull-right">Github</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+              <div class="col-lg-3 col-sm-6">
+                <ul class="navbar-nav mr-auto social">
+                  <li class="nav-item">
+                    <a href="http://dribbble.com/hoszi" target="_blank">
+                      <img src="img/social_04.svg" class="pull-left">
+                      <span class="pull-right">Dribbble</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://behance.net/klaudia-thedesigner" target="_blank">
+                      <img src="img/social_05.svg" class="pull-left">
+                      <span class="pull-right">Behance (Design)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://github.com/hoszka" target="_blank">
+                      <img src="img/social_06.svg" class="pull-left">
+                      <span class="pull-right">Github</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
 
-          <div class="col-lg-3 col-sm-6">
-            <ul class="navbar-nav mr-auto social">
-              <li class="nav-item">
-                <a href="https://www.instagram.com/wildxwomen" target="_blank">
-                  <img src="img/social_07.svg" class="pull-left">
-                  <span class="pull-right">Instagram</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="http://behance.net/hoszi" target="_blank">
-                  <img src="img/social_08.svg" class="pull-left">
-                  <span class="pull-right">Behance (Art)</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="http://hoszi.artstation.com" target="_blank">
-                  <img src="img/social_09.svg" class="pull-left">
-                  <span class="pull-right">Artstation</span>
-                </a>
-              </li>
-            </ul>
-          </div>
+              <div class="col-lg-3 col-sm-6">
+                <ul class="navbar-nav mr-auto social">
+                  <li class="nav-item">
+                    <a href="https://www.instagram.com/wildxwomen" target="_blank">
+                      <img src="img/social_07.svg" class="pull-left">
+                      <span class="pull-right">Instagram</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://behance.net/hoszi" target="_blank">
+                      <img src="img/social_08.svg" class="pull-left">
+                      <span class="pull-right">Behance (Art)</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="http://hoszi.artstation.com" target="_blank">
+                      <img src="img/social_09.svg" class="pull-left">
+                      <span class="pull-right">Artstation</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
 
-          <div class="col-lg-3 col-sm-6">
-            <ul class="navbar-nav mr-auto social">
-              <li class="nav-item">
-                <a href="https://siorbaty.blogspot.com" target="_blank">
-                  <img src="img/social_10.svg" class="pull-left">
-                  <span class="pull-right">Tea blog</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://przepisypieknegozwierza.blogspot.com" target="_blank">
-                  <img src="img/social_11.svg" class="pull-left">
-                  <span class="pull-right">Recipes blog</span>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="https://www.last.fm/pl/user/Hoszanna" target="_blank">
-                  <img src="img/social_12.svg" class="pull-left">
-                  <span class="pull-right">Lastfm</span>
-                </a>
-              </li>
-            </ul>
+              <div class="col-lg-3 col-sm-6">
+                <ul class="navbar-nav mr-auto social">
+                  <li class="nav-item">
+                    <a href="https://siorbaty.blogspot.com" target="_blank">
+                      <img src="img/social_10.svg" class="pull-left">
+                      <span class="pull-right">Tea blog</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://przepisypieknegozwierza.blogspot.com" target="_blank">
+                      <img src="img/social_11.svg" class="pull-left">
+                      <span class="pull-right">Recipes blog</span>
+                    </a>
+                  </li>
+                  <li class="nav-item">
+                    <a href="https://www.last.fm/pl/user/Hoszanna" target="_blank">
+                      <img src="img/social_12.svg" class="pull-left">
+                      <span class="pull-right">Lastfm</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
           </div>
       </div>
       <!-- /.container -->
     </footer>
-    <div class="under-footer"></div>
+    <div class="under-footer text-center">
+      Copyright &copy 2018 Klaudia Migacz
+    </div>
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
@@ -431,7 +453,5 @@
 
     <!-- Custom JavaScript for this theme -->
     <script src="js/scrolling-nav.js"></script>
-
   </body>
-
 </html>
