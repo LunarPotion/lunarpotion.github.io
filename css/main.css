@@ -14,7 +14,7 @@ p {
   padding-top: 1px;
   margin: 20px 4px 0px 4px;
   height: 25px;
-  border-right: 1px solid #95afae;
+  
 }
 
 a:hover {
@@ -23,7 +23,7 @@ a:hover {
 
 #landing {
   background: url(../img/b1.png) no-repeat;
-  background-size: 59% 100%;
+  background-size: 100% 100%;
   background-position: top right;
 }
 
@@ -37,6 +37,7 @@ a:hover {
 
 #landing #banner {
   margin-top: 135px;
+  padding-right: 80px;
 }
 
 #landing #hero {
@@ -75,6 +76,7 @@ a:hover {
 
 #experience .experience-nav .nav-item {
   border: none;
+  padding: 15px 0px;
 }
 
 #experience .skills-bars-list {
@@ -97,6 +99,7 @@ a:hover {
 
 #experience .skills-list {
   list-style-type: none;
+  margin-top: 25px;
 }
 
 #experience figure {
@@ -191,6 +194,10 @@ footer .social img {
   }
 
   #experience .experience-nav .nav-item {
+    padding: 0px;
+  }
+
+  #experience .experience-nav .nav-item.border-right-2 {
     border-right: 2px solid #efefef;
   }
 }
